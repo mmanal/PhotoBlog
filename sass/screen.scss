@@ -1,0 +1,42 @@
+// Reset no longer needed if you're using Bootstrap. But add it back if you don't want to use Bootstrap.
+// @import "reset";
+
+* {
+    background-repeat: no-repeat;
+}
+
+body {
+    height: 100%;
+}
+
+// @media screen and (min-width: 800px) {
+//     body {
+//         background: orange;
+//     }
+// }
+
+section {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: black;
+        img{
+            width:100%;
+            height: auto;
+            max-width: 2560px;
+            max-height:1766px;
+        }
+    div .test{
+        position: absolute;
+        top: 50%;
+        margin: auto;
+
+    }
+}
+
+
+.align{
+    text-align: center;
+}
+
+
